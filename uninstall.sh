@@ -17,3 +17,4 @@ rm -fr zshrc
 cd $HOME
 printf "$green"
 echo "Now restart termux"
+exit
