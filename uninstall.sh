@@ -13,7 +13,7 @@ rm -fr .zshrc.bak.2018.06.18-14:56:31 termux-ohmyzsh
 rm -fr .zcompdump-localhost-5.5.1 .zshrc
 rm -fr .zsh_history .bash_history .config .local
 cd /data/data/com.termux/files/usr/etc
-rm -fr zshrc
+rm -fr zshrc .bash_history  .zsh_history
 cd $HOME
 printf "$green"
 echo "Now restart termux"
