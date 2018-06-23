@@ -1,9 +1,9 @@
 #!/bash/usr/bin/env sh
 red='\033[1;31m'
 green='\033[1;32m'
-printf"$green"
+printf "$green"
 echo "DZ@SHELL"
-printf"$red"
+printf "$red"
 echo "setting up banner"
 sh banner.sh
 apt install -y curl
