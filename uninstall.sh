@@ -8,9 +8,9 @@ printf "$red"
 echo "done"
 
 
-rm -fr .oh-my-zsh .termux .termux.bak.2018.06.18-14:49:26 
-rm -fr .zshrc.bak.2018.06.18-14:56:31 termux-ohmyzsh
-rm -fr .zcompdump-localhost-5.5.1 .zshrc
+rm -fr .oh-my-zsh .termux .termux.bak*
+rm -fr .zshrc.bak* termux-ohmyzsh
+rm -fr .zcompdump-localhost* .zshrc
 rm -fr .zsh_history .bash_history .config .local
 cd /data/data/com.termux/files/usr/etc
 rm -fr zshrc 
